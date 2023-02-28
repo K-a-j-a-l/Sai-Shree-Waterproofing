@@ -142,25 +142,21 @@ h6 {
     font-weight: 500;
     letter-spacing: 2px;
     text-transform: uppercase;
-}
-
-#header .logo a {
-    color: #fff;
+    margin-left: 20px;
     display: flex;
     flex-wrap: nowrap;
 }
 
-#header .logo img {
-    max-height: 40px;
+#header .logo a {
+    color: #fff;
 }
 
-.logo img {
+#header .logo img {
     float: left;
     border-radius: 50px;
-    max-width: 50px;
-    max-height: 50px;
-    height: auto;
+    height: 90px;
     margin-right: 5px;
+    width: 100px;
 }
 
 
