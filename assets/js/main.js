@@ -253,15 +253,9 @@
 
 $(function() {
     $("#video1").on("play", function() {
-        $("#video2").trigger("pause");
-        $("#video3").trigger("pause");
+        $("#video2").trigger("pause")
     });
     $("#video2").on("play", function() {
         $("#video1").trigger("pause");
-        $("#video3").trigger("pause");
-    });
-    $("#video3").on("play", function() {
-        $("#video1").trigger("pause");
-        $("#video2").trigger("pause");
     });
 });
